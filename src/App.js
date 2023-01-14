@@ -1,6 +1,6 @@
 function App(props){
     return (
-        <div>
+        <div className="bg-dark">
             Hello World!
         </div>
     )
