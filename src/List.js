@@ -1,6 +1,7 @@
+import ListItem from "./ListItem";
 function List(props){
 
-    let items=props.items.map(item=><li>{item}</li>); //array li element
+    let items=props.items.map(item=><ListItem text={item}/>); //array li element
     return(
          <>
             <h3>{props.title}</h3>
