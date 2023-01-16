@@ -12,8 +12,7 @@ function App(){
         <div className="container">
             <List
             title="Guitars"
-            items={guitars}
-            background="primary"
+            background="danger"
             />
         </div>
         </>
