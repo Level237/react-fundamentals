@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import List from "./List";
+import Counter from "./Counter";
 function App(){
 
     const guitars=['Strat','Les Paul','Explorer'];
@@ -7,13 +8,15 @@ function App(){
 
     return (
         <>
-            <Navbar title="Css and Separating JS and JSX" />
+            <Navbar title="Getting Started with state" />
         
         <div className="container">
-            <List
+
+            <Counter />
+            {/* <List
             title="Guitars"
             background="danger"
-            />
+            /> */}
         </div>
         </>
     )
