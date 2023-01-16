@@ -8,7 +8,7 @@ function App(){
 
     return (
         <>
-            <Navbar title="Getting Started with state" />
+            <Navbar title="Handdling with DOM" />
         
         <div className="container">
 
