@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import List from "./List";
-import Counter from "./Counter";
+import Counter from "./CounterClass";
 function App(){
 
     const guitars=['Strat','Les Paul','Explorer'];
