@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import List from "./List";
+import List from "./ListClass";
 import Counter from "./CounterClass";
 function App(){
 
@@ -8,15 +8,17 @@ function App(){
 
     return (
         <>
-            <Navbar title="Handdling with DOM" />
+            <Navbar title="Using Controlled Input" />
         
         <div className="container">
 
-            <Counter />
-            {/* <List
+            {/* <Counter /> */}
+            {/* <AddItem/> */}
+            <List
             title="Guitars"
+            items={guitars}
             background="danger"
-            /> */}
+            />
         </div>
         </>
     )
