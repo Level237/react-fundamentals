@@ -2,12 +2,12 @@ import ListItem from "./ListItem";
 import PropTypes from 'prop-types';
 function List(props){
     //let tempItems=props.items || [];
-    let items=props.items.map(item=><ListItem text={item}/>); //array li element
+    let items=props.items.map(item=><ListItem item={item}/>); //array li element
 
     let css=`bg-${props.background}`;
     return(
          <>
-            <h3 className={css}>{props.title}</h3>
+            <h3>{props.title}</h3>
             <ul>
                 { items}
             </ul>
