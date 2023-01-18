@@ -13,7 +13,7 @@ function App(){
     }
     return (
         <>
-            <Navbar title="UnControlled Input" />
+            <Navbar title="Styling with inline styles" />
         
         <div className="container">
 

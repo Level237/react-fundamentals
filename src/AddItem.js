@@ -1,5 +1,5 @@
 import React from "react";
-
+import { makerStyles } from "./guitarStyles";
 
 class AddItem extends React.Component{
 
@@ -50,9 +50,9 @@ class AddItem extends React.Component{
                     <div className="mb-3">
                     <select ref={this.guitarMaker}>
                             <option value=""></option>
-                            <option value="PRS">PRS</option>
-                            <option value="Fender">Fender</option>
-                            <option value="Gibson">Gibson</option>
+                            <option style={makerStyles.prs} value="PRS">PRS</option>
+                            <option style={makerStyles.fender} value="Fender">Fender</option>
+                            <option style={makerStyles.gibson} value="Gibson">Gibson</option>
                         </select>
                     </div>
 
