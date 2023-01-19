@@ -18,7 +18,7 @@ function WeatherApp(){
                             <input
                             type='text'
                             className='form-control'
-                            ref={LocationInput}
+                            ref={locationInput}
                             />
                         </div>
                         <div className='col-auto'>
