@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import List from "./List";
 import AddItem from "./AddItem";
 import { useState } from "react";
+import styles from './Navbar.module.css';
 function App(){
 
     const [guitars,setGuitars]=useState([{title:'Strat'},{title:'Les Paul'},{title:'Explorer'}]);
@@ -13,7 +14,7 @@ function App(){
     }
     return (
         <>
-            <Navbar title="Styling with inline styles" />
+            <Navbar title="Using Css Modules" />
         
         <div className="container">
 
