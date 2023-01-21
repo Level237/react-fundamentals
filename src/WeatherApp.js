@@ -23,14 +23,14 @@ function WeatherApp(){
                         </div>
                         <div className='col-auto'>
                             <button
-                            className='btn btn-primary'
+                            className='btn btn-primary mb-3'
                             onClick={handleClick}
                             >
                                 Get
                             </button>
                         </div>
                     </form>
-                    <WeatherWidget  />
+                    <WeatherWidget location={location}/>
                 </div>
             </div>
         </div>
