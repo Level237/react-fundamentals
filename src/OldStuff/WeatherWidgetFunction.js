@@ -19,7 +19,7 @@ function WeatherWidget({location}){
         
             return (
                 <div className="card">
-                    <img src={data.current.weather_icons[0]} />
+                    {/* <img src={data.current.weather_icons[0]} /> */}
                     <div className="card-body">
                         <h5 className="card-title">
                             {data.location.name}
