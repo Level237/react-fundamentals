@@ -11,10 +11,10 @@ function Navbar(props){
                         <Link to='/' className="nav-link">Homes</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/react' className="nav-link">React News</Link>
+                        <Link to='/news/react' className="nav-link">React News</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/javascript' className="nav-link">Javascript News</Link>
+                        <Link to='/news/javascript' className="nav-link">Javascript News</Link>
                     </li>
                 </ul>
             </div>
