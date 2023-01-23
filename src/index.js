@@ -8,7 +8,7 @@ import JavaScriptNews from "./Javascript";
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import './index.css';
 import Layout from "./layout";
-import AdminLayout from "./AdminLayout";
+import NewsLayout from "./NewsLayout";
 const root=ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -17,7 +17,7 @@ root.render(
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<Home />}/>
-                    <Route path="/news">
+                    <Route path="/news" element={<NewsLayout />}>
                         <Route path="react" element={<ReactNews />}/>
                         <Route path="javascript" element={<JavaScriptNews />}/>
                     </Route>
