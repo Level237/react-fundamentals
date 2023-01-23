@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
 import { Outlet } from "react-router-dom"
 export default function App(){
-    const topics=['ReactJs','Javascript','HTML']
+    const topics=['Laravel','Javascript','HTML','Guitar']
     return (
         <>
             <Navbar topics={topics}/>

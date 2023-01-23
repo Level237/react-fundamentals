@@ -20,7 +20,6 @@ root.render(
                     <Route path="/" element={<Home />}/>
                     <Route path="/news" element={<NewsLayout />}>
                         <Route path=":newsTopic" element={<NewsResult />}/>
-                        <Route path="javascript" element={<JavaScriptNews />}/>
                     </Route>
                    
                     <Route path="/" element={<Home />}/>

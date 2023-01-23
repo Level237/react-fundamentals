@@ -12,8 +12,11 @@ function Navbar({title,topics}){
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand " href="#"> React Fundamentals:{title}</a>
-
+               
                 <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+                <li className="nav-item">
+                <Link to='/' className="nav-link">Home</Link>
+            </li>
                     {listItems}
                 </ul>
             </div>
