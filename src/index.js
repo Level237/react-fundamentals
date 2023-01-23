@@ -7,18 +7,19 @@ import ReactNews from "./ReactNews";
 import JavaScriptNews from "./Javascript";
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import './index.css';
-import Layout from "./layout";
+import App from "./App";
 import NewsLayout from "./NewsLayout";
+import NewsResult from "./NewsResult";
 const root=ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     // <React.StrictMode>
          <Router>
             <Routes>
-                <Route element={<Layout />}>
+                <Route element={<App />}>
                     <Route path="/" element={<Home />}/>
                     <Route path="/news" element={<NewsLayout />}>
-                        <Route path="react" element={<ReactNews />}/>
+                        <Route path=":newsTopic" element={<NewsResult />}/>
                         <Route path="javascript" element={<JavaScriptNews />}/>
                     </Route>
                    
